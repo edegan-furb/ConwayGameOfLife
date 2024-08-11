@@ -90,6 +90,7 @@ def main():
                     update(screen, cells, 10)  # Update the grid for the new state
                     pygame.display.update()  # Refresh the screen
                 elif event.key == pygame.K_c:  # 'C' key clears the grid and resets the time
+                    running = False  # Pause the simulation
                     cells = np.zeros((70, 140))  # Reset all cells to dead
                     screen.fill(COLOR_GRID)  # Clear the screen
                     update(screen, cells, 10)  # Update the display with the cleared grid
