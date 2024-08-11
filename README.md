@@ -41,5 +41,7 @@ python main.py
 The Pygame window will open, displaying the grid and the current state of the cells.
 
 ## Code Overview
-update(screen, cells, size, with_progress=False): Updates the grid based on Conway's Game of Life rules and draws the cells on the screen.
-main(): Initializes Pygame, sets up the display window, and handles the main event loop for user interactions and simulation updates.
+
+- update(screen, cells, size, with_progress=False): Updates the grid based on Conway's Game of Life rules and draws the cells on the screen.
+
+- main(): Initializes Pygame, sets up the display window, and handles the main event loop for user interactions and simulation updates.
