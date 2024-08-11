@@ -33,6 +33,7 @@ Conway's Game of Life is a zero-player game where the evolution of cells is dete
 
 - Spacebar: Toggle the simulation between running and paused states.
 - C key: Clear the grid, setting all cells to dead.
+- R: Repopulate grid with random cells
 - Left Mouse Button: Toggle the state of a cell (alive or dead) by clicking on the grid.
 
 ### Running the Simulation
