@@ -1,5 +1,9 @@
 # Conway's Game of Life Simulation
 
+<p align="center">
+    <img src="https://github.com/edegan-furb/ConwayGameOfLife/blob/main/video.gif" width="400"/>
+</p>
+
 This project is a simulation of Conway's Game of Life using Python with the Pygame library. It visualizes the cellular automaton on a grid and allows for interactive manipulation of cells. The game rules and simulation can be controlled through keyboard and mouse inputs.
 
 ## Requirements
